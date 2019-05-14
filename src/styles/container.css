@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center; 
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}

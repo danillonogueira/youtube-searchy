@@ -1,0 +1,156 @@
+hr {
+  border: 0;
+  border-top: 1px solid #BDBDBD;
+  display: block;
+  height: 1px; 
+}
+
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.frame-group__video-wrapper {
+  height: 41%;
+  width: 100%; 
+}
+
+.frame-group__video {
+  height: 100%;
+  width: 100%; 
+}
+
+.frame-group__title {
+  align-items: center;
+  background: #212121;
+  color: #fff;
+  display: flex;
+  font-size: 16px;
+  height: 15%;
+  padding: 0 20px;
+  width: 100%; 
+}
+
+.frame-group__views {
+  align-items: center;
+  color: #757575;
+  display: flex;
+  height: 7%; 
+  padding: 0 20px;
+}
+
+.frame-group__description {
+  color: #212121;
+  font-size: 14px;
+  height: 27%;
+  padding: 10px 20px; 
+}
+
+.frame-group__navigation {
+  align-items: center;
+  background: #9E9E9E;
+  display: flex;
+  height: 10%;
+  justify-content: center;
+  width: 100%; 
+}
+
+.frame-group__btn {
+  background: #FF5252;
+  border: none;
+  border-radius: 50%;
+  bottom: 20px;
+  box-shadow: 0px 0px 15px #BDBDBD;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  height: 60px;
+  left: 10px;
+  outline: none;
+  position: absolute; 
+  text-align: center;
+  width: 60px;
+}
+
+@media (min-height: 731px) {
+  .frame-group__btn {
+    bottom: 26px;
+  }
+}
+
+@media (min-height: 812px) {
+  .frame-group__btn {
+    bottom: 35px;
+  }
+}
+
+@media (min-height: 1024px) {
+  .frame-group__btn {
+    bottom: 25px;
+    font-size: 40px;
+    height: 90px;
+    left: 20px;
+    width: 90px;       
+  }
+}
+
+@media (min-width: 768px) {
+  .frame-group__video-wrapper {
+    height: 51%;
+  }
+  .frame-group__title {
+    font-size: 20px;
+  }
+  .frame-group__views {
+    font-size: 18px;
+  }
+  .frame-group__description {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .frame-group__title {
+    font-size: 24px;
+  }
+  .frame-group__views {
+    font-size: 22px;
+  }
+  .frame-group__description {
+    font-size: 18px;
+  }
+  .frame-group__btn {
+    bottom: 40px;
+  }
+  .frame-group__video-wrapper {
+    height: 52%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .frame-group__title {
+    font-size: 18px;
+  }
+  .frame-group__views {
+    font-size: 16px;
+  }
+  .frame-group__description {
+    font-size: 14px;
+  }
+  .frame-group {
+    box-shadow: 0px 1px 15px #BDBDBD;
+    width: 60%;   
+  }
+  .frame-group__navigation {
+    display: none;
+  }
+  .frame-group__video-wrapper {
+    height: 71%;
+  }
+  .frame-group__views {
+    height: 10%;
+  }
+}

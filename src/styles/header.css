@@ -1,0 +1,37 @@
+.header {
+  align-items: center;
+  background: #616161;
+  display: flex;
+  height: 8%;
+  width: 100%;
+}
+
+.header__margin {
+  background: #616161;
+  height: 2%;
+}
+
+.logo-group {
+  align-items: center;
+  display: flex;
+  margin: 0 2px;
+  pointer-events: none;
+}
+
+.logo-group__logo {
+  align-items: center;
+  color: #9E9E9E;
+  display: flex;
+  font-size: 36px;
+  height: 30px;
+  justify-content: center;
+  margin: 0 6px;
+  width: 35px;
+}
+
+.logo-group__title {
+  color: #fff;
+  font-family: "Pacifico", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-transform: capitalize; 
+}
