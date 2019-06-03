@@ -4,7 +4,7 @@ Test for a front-end developer job opportunity at [Guarani Sistemas](https://www
 ## The challenge
 The challenge consisted in building a web app that fetched data from YouTube API and displayed videos to the user.
 
-## Technology used
+## Technologies
 HTML5<br />
 CSS3<br />
 Vue.js
