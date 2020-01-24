@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     selectVideo(video, id) {
-      this.$http.get(`https://www.googleapis.com/youtube/v3/videos?part=statistics&id=${id}&key=AIzaSyC-kb72FZNPNGyCtrpxnBl-UsEw1-xGfc0`)
+      this.$http.get(`https://www.googleapis.com/youtube/v3/videos?part=statistics&id=${id}&key=AIzaSyDR3bjsBTUZpcPAYU1GP1GATl6DgFp9ee0`)
       .then(response => response.json())
       .then(data => {
         this.$store.commit('storeSelectedVideo', video);

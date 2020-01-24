@@ -21,7 +21,7 @@ export default {
   methods: {
     getVideos(input) {
       if (input !== '') {
-        this.$http.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${input}&type=video&key=AIzaSyC-kb72FZNPNGyCtrpxnBl-UsEw1-xGfc0`)
+        this.$http.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${input}&type=video&key=AIzaSyDR3bjsBTUZpcPAYU1GP1GATl6DgFp9ee0`)
           .then(response => response.json())
           .then(data => {
             (data.items.length !== 0)
